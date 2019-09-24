@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<mod1>",
+            "request": "launch",
+            "mainClass": "AreaOfCircle.TestRunner",
+            "projectName": "mod1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<mod1>",
+            "request": "launch",
+            "mainClass": "junit.runner.Version",
+            "projectName": "mod1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<mod1>(1)",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "projectName": "mod1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JUnitCore<mod1>",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "projectName": "mod1"
+        }
+    ]
+}
