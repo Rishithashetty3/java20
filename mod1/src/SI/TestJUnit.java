@@ -9,7 +9,7 @@
  * 
  * @author: Siva Sankar
  */
-package SimpleInterest;
+package SI;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 

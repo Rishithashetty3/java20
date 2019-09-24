@@ -5,7 +5,7 @@
  * 
  * @author Siva Sankar
  */
-package SimpleInterest;
+package SI;
  public class SimpleInterest {
 
     /**
@@ -23,6 +23,6 @@ package SimpleInterest;
         //  Your code goes here....
         
         
-        return(principle*numberOfYears*rateOfInterest);
+        return((principle*numberOfYears*rateOfInterest)/100);
     }
  }
