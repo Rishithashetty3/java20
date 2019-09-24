@@ -3,7 +3,7 @@
  * 
  * @author Siva Sankar
  */
-package AreaOfCircle
+package AreaOfCircle;
 public class AreaOfCircle {
     
     private static final double PI = 3.14159;
