@@ -13,9 +13,9 @@ package Factorial;
     public static long factorial(int n) {
         long fact=1;
         int i;
-        if(n>=1 && n<=20)
+        if(n>=0 && n<=20)
         {
-            for(i=1;i<=n;i++)
+            for(i=2;i<=n;i++)
             {
                 fact=fact*i;
             }

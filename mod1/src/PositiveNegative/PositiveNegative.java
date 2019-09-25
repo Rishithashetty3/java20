@@ -11,7 +11,7 @@
  * 
  * @author Siva Sankar
  */
-
+package PositiveNegative;
  public class PositiveNegative {
 
     /**
@@ -25,6 +25,7 @@
      */
     public static boolean posNeg(int a, int b, boolean negative) {
         // Your code goes here....
+        
         
     }
  }

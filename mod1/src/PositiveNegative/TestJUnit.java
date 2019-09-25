@@ -9,7 +9,7 @@
  * 
  * @author: Siva Sankar
  */
-
+package PositiveNegative;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
