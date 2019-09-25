@@ -10,7 +10,7 @@
  * 
  * @author Siva Sankar
  */
-
+package BinaryToDecimal;
 public class BinaryToDecimal {
 
     /**
@@ -20,6 +20,7 @@ public class BinaryToDecimal {
      * @return the decimal number n of the binary string.
      */
     public static int binaryToDecimal(String s) {
-        
+        int deci=Integer.parseInt(s,2);
+        return(deci);
     }
 }

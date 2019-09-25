@@ -9,7 +9,7 @@
  * 
  * @author: Siva Sankar
  */
-
+package BinaryToDecimal;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
