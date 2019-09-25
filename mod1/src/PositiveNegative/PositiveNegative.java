@@ -12,7 +12,10 @@
  * @author Siva Sankar
  */
 package PositiveNegative;
- public class PositiveNegative {
+
+import static org.junit.Assert.assertThat;
+
+public class PositiveNegative {
 
     /**
      * This method should return true if one is negative and one is positive.
@@ -25,7 +28,13 @@ package PositiveNegative;
      */
     public static boolean posNeg(int a, int b, boolean negative) {
         // Your code goes here....
-        
+        if((a<0 && b<0 && negative==true) || (a>0 && b<0 && negative==false) || (a<0 && b>0 && negative==false))
+        {
+            return(true);
+        }
+        else{
+            return(false);
+        }
         
     }
  }
